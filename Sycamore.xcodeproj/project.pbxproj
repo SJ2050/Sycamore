@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE1D456B1E10ECF3008BDA5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1D456A1E10ECF3008BDA5C /* main.m */; };
+		AE1D456E1E10ECF3008BDA5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1D456D1E10ECF3008BDA5C /* AppDelegate.m */; };
+		AE1D45701E10ECF3008BDA5C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = AE1D456F1E10ECF3008BDA5C /* Podfile */; };
+		AE1D45741E10ECF3008BDA5C /* CommonlyConst.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1D45731E10ECF3008BDA5C /* CommonlyConst.m */; };
+		AE1D45761E10ECF3008BDA5C /* SycamorePrefixHeader.pch in Resources */ = {isa = PBXBuildFile; fileRef = AE1D45751E10ECF3008BDA5C /* SycamorePrefixHeader.pch */; };
+		AE1D457A1E10ECF3008BDA5C /* QWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1D45791E10ECF3008BDA5C /* QWBaseViewController.m */; };
+		AE1D457D1E10ECF3008BDA5C /* QWNavitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1D457C1E10ECF3008BDA5C /* QWNavitionController.m */; };
+		AE1D45821E10ECF3008BDA5C /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1D45811E10ECF3008BDA5C /* UIView+Extension.m */; };
+		AE1D45841E10ECF3008BDA5C /* QWTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1D45831E10ECF3008BDA5C /* QWTabBarController.m */; };
+		AE1D45871E10ECF3008BDA5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE1D45861E10ECF3008BDA5C /* Assets.xcassets */; };
+		AE1D45891E10ECF3008BDA5C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE1D45881E10ECF3008BDA5C /* Images.xcassets */; };
+		AE1D45951E10ECF3008BDA5C /* SycamoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1D45941E10ECF3008BDA5C /* SycamoreTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE1D458F1E10ECF3008BDA5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE1D455D1E10ECF3008BDA5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE1D45641E10ECF3008BDA5C;
+			remoteInfo = Sycamore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE1D45651E10ECF3008BDA5C /* Sycamore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sycamore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1D45691E10ECF3008BDA5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE1D456A1E10ECF3008BDA5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE1D456C1E10ECF3008BDA5C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE1D456D1E10ECF3008BDA5C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE1D456F1E10ECF3008BDA5C /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		AE1D45721E10ECF3008BDA5C /* CommonlyConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CommonlyConst.h; path = OC/Other/CommonlyConst.h; sourceTree = "<group>"; };
+		AE1D45731E10ECF3008BDA5C /* CommonlyConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CommonlyConst.m; path = OC/Other/CommonlyConst.m; sourceTree = "<group>"; };
+		AE1D45751E10ECF3008BDA5C /* SycamorePrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SycamorePrefixHeader.pch; path = OC/Other/SycamorePrefixHeader.pch; sourceTree = "<group>"; };
+		AE1D45781E10ECF3008BDA5C /* QWBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = QWBaseViewController.h; path = OC/Base/QWBaseViewController.h; sourceTree = "<group>"; };
+		AE1D45791E10ECF3008BDA5C /* QWBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = QWBaseViewController.m; path = OC/Base/QWBaseViewController.m; sourceTree = "<group>"; };
+		AE1D457B1E10ECF3008BDA5C /* QWNavitionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = QWNavitionController.h; path = OC/Base/QWNavitionController.h; sourceTree = "<group>"; };
+		AE1D457C1E10ECF3008BDA5C /* QWNavitionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = QWNavitionController.m; path = OC/Base/QWNavitionController.m; sourceTree = "<group>"; };
+		AE1D457E1E10ECF3008BDA5C /* QWTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = QWTabBarController.h; path = OC/Base/QWTabBarController.h; sourceTree = "<group>"; };
+		AE1D45801E10ECF3008BDA5C /* UIView+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIView+Extension.h"; path = "OC/Extension/UIView+Extension.h"; sourceTree = "<group>"; };
+		AE1D45811E10ECF3008BDA5C /* UIView+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extension.m"; path = "OC/Extension/UIView+Extension.m"; sourceTree = "<group>"; };
+		AE1D45831E10ECF3008BDA5C /* QWTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = QWTabBarController.m; path = OC/Base/QWTabBarController.m; sourceTree = "<group>"; };
+		AE1D45851E10ECF3008BDA5C /* CommonlyMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CommonlyMacro.h; path = OC/Other/CommonlyMacro.h; sourceTree = "<group>"; };
+		AE1D45861E10ECF3008BDA5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE1D45881E10ECF3008BDA5C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AE1D458E1E10ECF3008BDA5C /* SycamoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SycamoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1D45931E10ECF3008BDA5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE1D45941E10ECF3008BDA5C /* SycamoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SycamoreTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE1D45621E10ECF3008BDA5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE1D458B1E10ECF3008BDA5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE1D455C1E10ECF3008BDA5C = {
+			isa = PBXGroup;
+			children = (
+				AE1D45671E10ECF3008BDA5C /* Sycamore */,
+				AE1D45911E10ECF3008BDA5C /* SycamoreTests */,
+				AE1D45661E10ECF3008BDA5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE1D45661E10ECF3008BDA5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE1D45651E10ECF3008BDA5C /* Sycamore.app */,
+				AE1D458E1E10ECF3008BDA5C /* SycamoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE1D45671E10ECF3008BDA5C /* Sycamore */ = {
+			isa = PBXGroup;
+			children = (
+				AE1D456C1E10ECF3008BDA5C /* AppDelegate.h */,
+				AE1D456D1E10ECF3008BDA5C /* AppDelegate.m */,
+				AE1D456F1E10ECF3008BDA5C /* Podfile */,
+				AE1D45861E10ECF3008BDA5C /* Assets.xcassets */,
+				AE1D45881E10ECF3008BDA5C /* Images.xcassets */,
+				AE1D45711E10ECF3008BDA5C /* Other */,
+				AE1D45771E10ECF3008BDA5C /* Base */,
+				AE1D457F1E10ECF3008BDA5C /* Extension */,
+				AE1D45681E10ECF3008BDA5C /* Supporting Files */,
+			);
+			path = Sycamore;
+			sourceTree = "<group>";
+		};
+		AE1D45681E10ECF3008BDA5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE1D45691E10ECF3008BDA5C /* Info.plist */,
+				AE1D456A1E10ECF3008BDA5C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE1D45711E10ECF3008BDA5C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				AE1D45721E10ECF3008BDA5C /* CommonlyConst.h */,
+				AE1D45731E10ECF3008BDA5C /* CommonlyConst.m */,
+				AE1D45751E10ECF3008BDA5C /* SycamorePrefixHeader.pch */,
+				AE1D45851E10ECF3008BDA5C /* CommonlyMacro.h */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		AE1D45771E10ECF3008BDA5C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				AE1D45781E10ECF3008BDA5C /* QWBaseViewController.h */,
+				AE1D45791E10ECF3008BDA5C /* QWBaseViewController.m */,
+				AE1D457B1E10ECF3008BDA5C /* QWNavitionController.h */,
+				AE1D457C1E10ECF3008BDA5C /* QWNavitionController.m */,
+				AE1D457E1E10ECF3008BDA5C /* QWTabBarController.h */,
+				AE1D45831E10ECF3008BDA5C /* QWTabBarController.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		AE1D457F1E10ECF3008BDA5C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AE1D45801E10ECF3008BDA5C /* UIView+Extension.h */,
+				AE1D45811E10ECF3008BDA5C /* UIView+Extension.m */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		AE1D45911E10ECF3008BDA5C /* SycamoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE1D45941E10ECF3008BDA5C /* SycamoreTests.m */,
+				AE1D45921E10ECF3008BDA5C /* Supporting Files */,
+			);
+			path = SycamoreTests;
+			sourceTree = "<group>";
+		};
+		AE1D45921E10ECF3008BDA5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE1D45931E10ECF3008BDA5C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE1D45641E10ECF3008BDA5C /* Sycamore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE1D45981E10ECF3008BDA5C /* Build configuration list for PBXNativeTarget "Sycamore" */;
+			buildPhases = (
+				AE1D45611E10ECF3008BDA5C /* Sources */,
+				AE1D45621E10ECF3008BDA5C /* Frameworks */,
+				AE1D45631E10ECF3008BDA5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sycamore;
+			productName = Sycamore;
+			productReference = AE1D45651E10ECF3008BDA5C /* Sycamore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE1D458D1E10ECF3008BDA5C /* SycamoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE1D459B1E10ECF3008BDA5C /* Build configuration list for PBXNativeTarget "SycamoreTests" */;
+			buildPhases = (
+				AE1D458A1E10ECF3008BDA5C /* Sources */,
+				AE1D458B1E10ECF3008BDA5C /* Frameworks */,
+				AE1D458C1E10ECF3008BDA5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE1D45901E10ECF3008BDA5C /* PBXTargetDependency */,
+			);
+			name = SycamoreTests;
+			productName = SycamoreTests;
+			productReference = AE1D458E1E10ECF3008BDA5C /* SycamoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE1D455D1E10ECF3008BDA5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = teacher;
+				TargetAttributes = {
+					AE1D45641E10ECF3008BDA5C = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					AE1D458D1E10ECF3008BDA5C = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = AE1D45641E10ECF3008BDA5C;
+					};
+				};
+			};
+			buildConfigurationList = AE1D45601E10ECF3008BDA5C /* Build configuration list for PBXProject "Sycamore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AE1D455C1E10ECF3008BDA5C;
+			productRefGroup = AE1D45661E10ECF3008BDA5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE1D45641E10ECF3008BDA5C /* Sycamore */,
+				AE1D458D1E10ECF3008BDA5C /* SycamoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE1D45631E10ECF3008BDA5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1D45701E10ECF3008BDA5C /* Podfile in Resources */,
+				AE1D45891E10ECF3008BDA5C /* Images.xcassets in Resources */,
+				AE1D45871E10ECF3008BDA5C /* Assets.xcassets in Resources */,
+				AE1D45761E10ECF3008BDA5C /* SycamorePrefixHeader.pch in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE1D458C1E10ECF3008BDA5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE1D45611E10ECF3008BDA5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1D45821E10ECF3008BDA5C /* UIView+Extension.m in Sources */,
+				AE1D45841E10ECF3008BDA5C /* QWTabBarController.m in Sources */,
+				AE1D456E1E10ECF3008BDA5C /* AppDelegate.m in Sources */,
+				AE1D45741E10ECF3008BDA5C /* CommonlyConst.m in Sources */,
+				AE1D456B1E10ECF3008BDA5C /* main.m in Sources */,
+				AE1D457A1E10ECF3008BDA5C /* QWBaseViewController.m in Sources */,
+				AE1D457D1E10ECF3008BDA5C /* QWNavitionController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE1D458A1E10ECF3008BDA5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1D45951E10ECF3008BDA5C /* SycamoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE1D45901E10ECF3008BDA5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE1D45641E10ECF3008BDA5C /* Sycamore */;
+			targetProxy = AE1D458F1E10ECF3008BDA5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AE1D45961E10ECF3008BDA5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AE1D45971E10ECF3008BDA5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE1D45991E10ECF3008BDA5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Sycamore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE1D459A1E10ECF3008BDA5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Sycamore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AE1D459C1E10ECF3008BDA5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sycamore.app/Sycamore";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SycamoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		AE1D459D1E10ECF3008BDA5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sycamore.app/Sycamore";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SycamoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE1D45601E10ECF3008BDA5C /* Build configuration list for PBXProject "Sycamore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE1D45961E10ECF3008BDA5C /* Debug */,
+				AE1D45971E10ECF3008BDA5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE1D45981E10ECF3008BDA5C /* Build configuration list for PBXNativeTarget "Sycamore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE1D45991E10ECF3008BDA5C /* Debug */,
+				AE1D459A1E10ECF3008BDA5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE1D459B1E10ECF3008BDA5C /* Build configuration list for PBXNativeTarget "SycamoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE1D459C1E10ECF3008BDA5C /* Debug */,
+				AE1D459D1E10ECF3008BDA5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE1D455D1E10ECF3008BDA5C /* Project object */;
+}
